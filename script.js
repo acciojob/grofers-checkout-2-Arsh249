@@ -25,7 +25,7 @@ function calculateTotalPrice() {
   }
 
   // Set the calculated total in the cell
-  totalCell.textContent = `${total.toFixed(2)}`;
+  totalCell.textContent = `${Math.floor(total.toFixed(2))}`;
 }
 
 // Call the function to calculate and display the total price

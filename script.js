@@ -1,7 +1,7 @@
 //your code here
 function calculateTotalPrice() {
   // Get all the price elements from the table
-  const prices = document.querySelectorAll('[data-ns-test="prices"]');
+  const prices = document.querySelectorAll('[data-ns-test="price"]');
 
   // Calculate the total sum of the prices
   let total = 0;
